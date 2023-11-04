@@ -1,0 +1,19 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Sat Oct 28 14:50:24 2023
+# Process ID: 27076
+# Current directory: d:/code/3DAudioWithFPGA/exampleXDMA/xdma_0_ex
+# Command line: vivado.exe -notrace -source d:/code/3DAudioWithFPGA/PCIeConnect/.Xil/xdma_0/xdma_0_ex.tcl
+# Log file: d:/code/3DAudioWithFPGA/exampleXDMA/xdma_0_ex/vivado.log
+# Journal file: d:/code/3DAudioWithFPGA/exampleXDMA/xdma_0_ex\vivado.jou
+# Running On: NotAsleep, OS: Windows, CPU Frequency: 3418 MHz, CPU Physical cores: 16, Host memory: 102807 MB
+#-----------------------------------------------------------
+start_gui
+source d:/code/3DAudioWithFPGA/PCIeConnect/.Xil/xdma_0/xdma_0_ex.tcl -notrace
+update_compile_order -fileset sources_1
+launch_simulation
+source board.tcl
+close_sim
