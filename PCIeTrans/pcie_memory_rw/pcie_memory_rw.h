@@ -5,16 +5,20 @@
 #include <QByteArray>
 #include <vector>
 #include "pcie_dev.h"
+#include <QFutureWatcher>
+#include <QThread>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class pcie_memory_rw; }
 QT_END_NAMESPACE
+
 
 class pcie_memory_rw : public QMainWindow
 {
     Q_OBJECT
 signals:
     void wavFileDropped(const QString &filePath);
+    void startProcessing();
 public:
     long data_size;
     pcie_memory_rw(QWidget *parent = nullptr);
@@ -22,6 +26,7 @@ public:
 
 private slots:
     void on_btnSnd_clicked();
+    void on_wavProcessButton_clicked();
 
 private:
 //    void dragEnterEvent(QDragEnterEvent *event);

@@ -11,7 +11,10 @@
     },
     "design_tree": {
       "xdma_0": "",
-      "util_ds_buf": ""
+      "util_ds_buf": "",
+      "axi_bram_ctrl_0": "",
+      "axi_bram_ctrl_0_bram": "",
+      "axi_smc": ""
     },
     "interface_ports": {
       "pcie_7x_mgt_rtl_0": {
@@ -126,6 +129,11 @@
               "minimum": "0x00000000",
               "maximum": "0xFFFFFFFF",
               "width": "32"
+            },
+            "parameters": {
+              "master_id": {
+                "value": "1"
+              }
             }
           }
         },
@@ -148,13 +156,85 @@
             "value": "IBUFDSGTE"
           }
         }
+      },
+      "axi_bram_ctrl_0": {
+        "vlnv": "xilinx.com:ip:axi_bram_ctrl:4.1",
+        "xci_name": "PCIe_axi_bram_ctrl_0_0",
+        "xci_path": "ip\\PCIe_axi_bram_ctrl_0_0\\PCIe_axi_bram_ctrl_0_0.xci",
+        "inst_hier_path": "axi_bram_ctrl_0",
+        "parameters": {
+          "DATA_WIDTH": {
+            "value": "64"
+          }
+        }
+      },
+      "axi_bram_ctrl_0_bram": {
+        "vlnv": "xilinx.com:ip:blk_mem_gen:8.4",
+        "xci_name": "PCIe_axi_bram_ctrl_0_bram_0",
+        "xci_path": "ip\\PCIe_axi_bram_ctrl_0_bram_0\\PCIe_axi_bram_ctrl_0_bram_0.xci",
+        "inst_hier_path": "axi_bram_ctrl_0_bram",
+        "parameters": {
+          "Memory_Type": {
+            "value": "True_Dual_Port_RAM"
+          }
+        }
+      },
+      "axi_smc": {
+        "vlnv": "xilinx.com:ip:smartconnect:1.0",
+        "xci_name": "PCIe_axi_smc_0",
+        "xci_path": "ip\\PCIe_axi_smc_0\\PCIe_axi_smc_0.xci",
+        "inst_hier_path": "axi_smc",
+        "parameters": {
+          "NUM_SI": {
+            "value": "1"
+          }
+        },
+        "interface_ports": {
+          "S00_AXI": {
+            "mode": "Slave",
+            "vlnv_bus_definition": "xilinx.com:interface:aximm:1.0",
+            "vlnv": "xilinx.com:interface:aximm_rtl:1.0",
+            "bridges": [
+              "M00_AXI"
+            ]
+          },
+          "M00_AXI": {
+            "mode": "Master",
+            "vlnv_bus_definition": "xilinx.com:interface:aximm:1.0",
+            "vlnv": "xilinx.com:interface:aximm_rtl:1.0"
+          }
+        }
       }
     },
     "interface_nets": {
+      "axi_bram_ctrl_0_BRAM_PORTA": {
+        "interface_ports": [
+          "axi_bram_ctrl_0_bram/BRAM_PORTA",
+          "axi_bram_ctrl_0/BRAM_PORTA"
+        ]
+      },
+      "axi_bram_ctrl_0_BRAM_PORTB": {
+        "interface_ports": [
+          "axi_bram_ctrl_0_bram/BRAM_PORTB",
+          "axi_bram_ctrl_0/BRAM_PORTB"
+        ]
+      },
+      "axi_smc_M00_AXI": {
+        "interface_ports": [
+          "axi_smc/M00_AXI",
+          "axi_bram_ctrl_0/S_AXI"
+        ]
+      },
       "diff_clock_rtl_0_1": {
         "interface_ports": [
           "diff_clock_rtl_0",
           "util_ds_buf/CLK_IN_D"
+        ]
+      },
+      "xdma_0_M_AXI_LITE": {
+        "interface_ports": [
+          "xdma_0/M_AXI_LITE",
+          "axi_smc/S00_AXI"
         ]
       },
       "xdma_0_pcie_mgt": {
@@ -176,6 +256,35 @@
           "util_ds_buf/IBUF_OUT",
           "xdma_0/sys_clk"
         ]
+      },
+      "xdma_0_axi_aclk": {
+        "ports": [
+          "xdma_0/axi_aclk",
+          "axi_smc/aclk",
+          "axi_bram_ctrl_0/s_axi_aclk"
+        ]
+      },
+      "xdma_0_axi_aresetn": {
+        "ports": [
+          "xdma_0/axi_aresetn",
+          "axi_bram_ctrl_0/s_axi_aresetn",
+          "axi_smc/aresetn"
+        ]
+      }
+    },
+    "addressing": {
+      "/xdma_0": {
+        "address_spaces": {
+          "M_AXI_LITE": {
+            "segments": {
+              "SEG_axi_bram_ctrl_0_Mem0": {
+                "address_block": "/axi_bram_ctrl_0/S_AXI/Mem0",
+                "offset": "0xC0000000",
+                "range": "8K"
+              }
+            }
+          }
+        }
       }
     }
   }

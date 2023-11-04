@@ -1,6 +1,6 @@
 #include <windows.h>
 
-IDI_ICON1	ICON	"E:\\FPGA\\4_SourceCode\\3_PCIe\\35t\\3_pcie_memory_rw\\app_win\\pcie_memory_rw\\alientek.ico"
+IDI_ICON1	ICON	"D:\\code\\3DAudioWithFPGA\\PCIeTrans\\pcie_memory_rw\\hi-res-icon-0.ico"
 
 VS_VERSION_INFO VERSIONINFO
 	FILEVERSION 0,0,0,0

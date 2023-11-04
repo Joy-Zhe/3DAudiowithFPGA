@@ -84,649 +84,649 @@ debug-uninstall: FORCE
 	@set MAKEFLAGS=$(MAKEFLAGS)
 	$(MAKE) -f $(MAKEFILE).Debug uninstall
 
-Makefile: ..\pcie_memory_rw\pcie_memory_rw.pro D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\win32-msvc\qmake.conf D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\spec_pre.prf \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\common\windows-desktop.conf \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\win32\windows_vulkan_sdk.prf \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\common\windows-vulkan.conf \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\common\msvc-desktop.conf \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\qconfig.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_ext_freetype.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_ext_libjpeg.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_ext_libpng.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_3danimation.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_3danimation_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_3dcore.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_3dcore_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_3dextras.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_3dextras_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_3dinput.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_3dinput_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_3dlogic.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_3dlogic_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_3dquick.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_3dquick_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_3dquickanimation.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_3dquickanimation_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_3dquickextras.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_3dquickextras_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_3dquickinput.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_3dquickinput_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_3dquickrender.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_3dquickrender_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_3dquickscene2d.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_3dquickscene2d_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_3drender.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_3drender_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_activeqt.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_activeqt_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_axbase_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_axcontainer.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_axcontainer_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_axserver.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_axserver_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_bluetooth.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_bluetooth_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_bodymovin_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_charts.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_charts_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_chartsqml.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_chartsqml_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_concurrent.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_concurrent_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_core.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_core5compat.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_core5compat_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_core_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_datavisualization.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_datavisualization_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_datavisualizationqml.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_datavisualizationqml_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_dbus.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_dbus_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_designer.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_designer_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_designercomponents_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_devicediscovery_support_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_entrypoint_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_example_icons_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_fb_support_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_freetype_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_graphs.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_graphs_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_grpc.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_grpc_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_gui.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_gui_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_harfbuzz_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_help.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_help_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_httpserver.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_httpserver_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_jpeg_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_jsonrpc_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_labsanimation.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_labsanimation_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_labsfolderlistmodel.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_labsfolderlistmodel_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_labsqmlmodels.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_labsqmlmodels_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_labssettings.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_labssettings_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_labssharedimage.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_labssharedimage_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_labswavefrontmesh.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_labswavefrontmesh_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_languageserver_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_linguist.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_linguist_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_location.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_location_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_multimedia.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_multimedia_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_multimediaquick_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_multimediawidgets.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_multimediawidgets_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_network.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_network_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_networkauth.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_networkauth_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_nfc.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_nfc_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_opengl.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_opengl_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_openglwidgets.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_openglwidgets_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_packetprotocol_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_pdf.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_pdf_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_pdfquick.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_pdfquick_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_pdfwidgets.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_pdfwidgets_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_png_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_positioning.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_positioning_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_positioningquick.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_positioningquick_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_printsupport.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_printsupport_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_protobuf.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_protobuf_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_protobufqtcoretypes.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_protobufqtcoretypes_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_protobufqtguitypes.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_protobufqtguitypes_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_protobufwellknowntypes.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_protobufwellknowntypes_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_qdoccatch_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_qdoccatchconversionsprivate.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_qdoccatchconversionsprivate_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_qdoccatchgeneratorsprivate.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_qdoccatchgeneratorsprivate_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_qml.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_qml_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_qmlcompiler.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_qmlcompiler_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_qmlcore.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_qmlcore_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_qmldebug_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_qmldom_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_qmlintegration.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_qmlintegration_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_qmllocalstorage.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_qmllocalstorage_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_qmlls_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_qmlmodels.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_qmlmodels_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_qmltest.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_qmltest_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_qmltoolingsettings_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_qmltyperegistrar_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_qmlworkerscript.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_qmlworkerscript_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_qmlxmllistmodel.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_qmlxmllistmodel_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quick.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quick3d.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quick3d_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quick3dassetimport.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quick3dassetimport_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quick3dassetutils.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quick3dassetutils_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quick3deffects.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quick3deffects_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quick3dglslparser_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quick3dhelpers.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quick3dhelpers_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quick3dhelpersimpl.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quick3dhelpersimpl_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quick3diblbaker.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quick3diblbaker_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quick3dparticleeffects.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quick3dparticleeffects_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quick3dparticles.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quick3dparticles_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quick3dphysics.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quick3dphysics_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quick3dphysicshelpers.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quick3dphysicshelpers_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quick3druntimerender.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quick3druntimerender_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quick3dspatialaudio_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quick3dutils.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quick3dutils_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quick_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quickcontrols2.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quickcontrols2_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quickcontrols2impl.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quickcontrols2impl_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quickcontrolstestutilsprivate_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quickdialogs2.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quickdialogs2_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quickdialogs2quickimpl.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quickdialogs2quickimpl_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quickdialogs2utils.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quickdialogs2utils_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quickeffects_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quicklayouts.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quicklayouts_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quickparticles_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quickshapes_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quicktemplates2.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quicktemplates2_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quicktestutilsprivate_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quicktimeline.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quicktimeline_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quickwidgets.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quickwidgets_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_remoteobjects.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_remoteobjects_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_remoteobjectsqml.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_remoteobjectsqml_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_repparser.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_repparser_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_scxml.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_scxml_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_scxmlqml.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_scxmlqml_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_sensors.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_sensors_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_sensorsquick.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_sensorsquick_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_serialbus.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_serialbus_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_serialport.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_serialport_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_shadertools.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_shadertools_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_spatialaudio.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_spatialaudio_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_sql.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_sql_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_statemachine.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_statemachine_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_statemachineqml.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_statemachineqml_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_svg.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_svg_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_svgwidgets.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_svgwidgets_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_testlib.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_testlib_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_texttospeech.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_texttospeech_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_tools_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_uiplugin.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_uitools.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_uitools_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_virtualkeyboard.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_virtualkeyboard_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_webchannel.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_webchannel_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_webchannelquick.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_webchannelquick_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_webenginecore.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_webenginecore_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_webenginequick.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_webenginequick_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_webenginequickdelegatesqml.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_webenginequickdelegatesqml_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_webenginewidgets.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_webenginewidgets_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_websockets.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_websockets_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_webview.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_webview_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_webviewquick.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_webviewquick_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_widgets.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_widgets_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_xml.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_xml_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_zlib_private.pri \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\qt_functions.prf \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\qt_config.prf \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\win32-msvc\qmake.conf \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\spec_post.prf \
+Makefile: ..\pcie_memory_rw\pcie_memory_rw.pro ..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\win32-msvc\qmake.conf ..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\spec_pre.prf \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\common\windows-desktop.conf \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\win32\windows_vulkan_sdk.prf \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\common\windows-vulkan.conf \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\common\msvc-desktop.conf \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\qconfig.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_ext_freetype.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_ext_libjpeg.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_ext_libpng.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_3danimation.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_3danimation_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_3dcore.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_3dcore_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_3dextras.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_3dextras_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_3dinput.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_3dinput_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_3dlogic.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_3dlogic_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_3dquick.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_3dquick_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_3dquickanimation.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_3dquickanimation_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_3dquickextras.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_3dquickextras_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_3dquickinput.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_3dquickinput_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_3dquickrender.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_3dquickrender_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_3dquickscene2d.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_3dquickscene2d_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_3drender.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_3drender_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_activeqt.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_activeqt_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_axbase_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_axcontainer.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_axcontainer_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_axserver.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_axserver_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_bluetooth.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_bluetooth_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_bodymovin_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_charts.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_charts_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_chartsqml.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_chartsqml_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_concurrent.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_concurrent_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_core.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_core5compat.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_core5compat_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_core_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_datavisualization.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_datavisualization_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_datavisualizationqml.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_datavisualizationqml_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_dbus.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_dbus_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_designer.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_designer_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_designercomponents_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_devicediscovery_support_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_entrypoint_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_example_icons_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_fb_support_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_freetype_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_graphs.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_graphs_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_grpc.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_grpc_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_gui.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_gui_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_harfbuzz_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_help.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_help_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_httpserver.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_httpserver_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_jpeg_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_jsonrpc_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_labsanimation.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_labsanimation_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_labsfolderlistmodel.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_labsfolderlistmodel_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_labsqmlmodels.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_labsqmlmodels_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_labssettings.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_labssettings_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_labssharedimage.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_labssharedimage_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_labswavefrontmesh.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_labswavefrontmesh_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_languageserver_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_linguist.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_linguist_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_location.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_location_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_multimedia.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_multimedia_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_multimediaquick_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_multimediawidgets.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_multimediawidgets_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_network.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_network_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_networkauth.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_networkauth_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_nfc.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_nfc_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_opengl.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_opengl_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_openglwidgets.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_openglwidgets_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_packetprotocol_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_pdf.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_pdf_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_pdfquick.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_pdfquick_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_pdfwidgets.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_pdfwidgets_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_png_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_positioning.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_positioning_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_positioningquick.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_positioningquick_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_printsupport.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_printsupport_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_protobuf.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_protobuf_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_protobufqtcoretypes.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_protobufqtcoretypes_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_protobufqtguitypes.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_protobufqtguitypes_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_protobufwellknowntypes.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_protobufwellknowntypes_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_qdoccatch_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_qdoccatchconversionsprivate.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_qdoccatchconversionsprivate_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_qdoccatchgeneratorsprivate.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_qdoccatchgeneratorsprivate_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_qml.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_qml_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_qmlcompiler.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_qmlcompiler_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_qmlcore.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_qmlcore_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_qmldebug_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_qmldom_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_qmlintegration.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_qmlintegration_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_qmllocalstorage.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_qmllocalstorage_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_qmlls_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_qmlmodels.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_qmlmodels_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_qmltest.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_qmltest_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_qmltoolingsettings_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_qmltyperegistrar_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_qmlworkerscript.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_qmlworkerscript_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_qmlxmllistmodel.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_qmlxmllistmodel_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quick.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quick3d.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quick3d_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quick3dassetimport.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quick3dassetimport_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quick3dassetutils.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quick3dassetutils_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quick3deffects.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quick3deffects_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quick3dglslparser_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quick3dhelpers.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quick3dhelpers_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quick3dhelpersimpl.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quick3dhelpersimpl_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quick3diblbaker.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quick3diblbaker_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quick3dparticleeffects.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quick3dparticleeffects_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quick3dparticles.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quick3dparticles_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quick3dphysics.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quick3dphysics_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quick3dphysicshelpers.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quick3dphysicshelpers_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quick3druntimerender.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quick3druntimerender_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quick3dspatialaudio_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quick3dutils.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quick3dutils_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quick_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quickcontrols2.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quickcontrols2_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quickcontrols2impl.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quickcontrols2impl_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quickcontrolstestutilsprivate_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quickdialogs2.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quickdialogs2_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quickdialogs2quickimpl.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quickdialogs2quickimpl_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quickdialogs2utils.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quickdialogs2utils_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quickeffects_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quicklayouts.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quicklayouts_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quickparticles_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quickshapes_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quicktemplates2.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quicktemplates2_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quicktestutilsprivate_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quicktimeline.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quicktimeline_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quickwidgets.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quickwidgets_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_remoteobjects.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_remoteobjects_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_remoteobjectsqml.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_remoteobjectsqml_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_repparser.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_repparser_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_scxml.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_scxml_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_scxmlqml.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_scxmlqml_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_sensors.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_sensors_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_sensorsquick.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_sensorsquick_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_serialbus.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_serialbus_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_serialport.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_serialport_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_shadertools.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_shadertools_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_spatialaudio.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_spatialaudio_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_sql.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_sql_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_statemachine.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_statemachine_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_statemachineqml.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_statemachineqml_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_svg.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_svg_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_svgwidgets.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_svgwidgets_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_testlib.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_testlib_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_texttospeech.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_texttospeech_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_tools_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_uiplugin.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_uitools.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_uitools_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_virtualkeyboard.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_virtualkeyboard_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_webchannel.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_webchannel_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_webchannelquick.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_webchannelquick_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_webenginecore.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_webenginecore_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_webenginequick.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_webenginequick_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_webenginequickdelegatesqml.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_webenginequickdelegatesqml_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_webenginewidgets.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_webenginewidgets_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_websockets.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_websockets_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_webview.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_webview_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_webviewquick.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_webviewquick_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_widgets.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_widgets_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_xml.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_xml_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_zlib_private.pri \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\qt_functions.prf \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\qt_config.prf \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\win32-msvc\qmake.conf \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\spec_post.prf \
 		.qmake.stash \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\exclusive_builds.prf \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\common\msvc-version.conf \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\toolchain.prf \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\default_pre.prf \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\win32\default_pre.prf \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\resolve_config.prf \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\exclusive_builds_post.prf \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\default_post.prf \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\qtquickcompiler.prf \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\entrypoint.prf \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\precompile_header.prf \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\warn_on.prf \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\permissions.prf \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\qt.prf \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\resources_functions.prf \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\resources.prf \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\moc.prf \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\win32\opengl.prf \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\uic.prf \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\qmake_use.prf \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\file_copies.prf \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\win32\windows.prf \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\testcase_targets.prf \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\exceptions.prf \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\yacc.prf \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\lex.prf \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\exclusive_builds.prf \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\common\msvc-version.conf \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\toolchain.prf \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\default_pre.prf \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\win32\default_pre.prf \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\resolve_config.prf \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\exclusive_builds_post.prf \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\default_post.prf \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\qtquickcompiler.prf \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\entrypoint.prf \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\precompile_header.prf \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\warn_on.prf \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\permissions.prf \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\qt.prf \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\resources_functions.prf \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\resources.prf \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\moc.prf \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\win32\opengl.prf \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\uic.prf \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\qmake_use.prf \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\file_copies.prf \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\win32\windows.prf \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\testcase_targets.prf \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\exceptions.prf \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\yacc.prf \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\lex.prf \
 		..\pcie_memory_rw\pcie_memory_rw.pro \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\lib\Qt6Widgets.prl \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\lib\Qt6Gui.prl \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\lib\Qt6Core.prl \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\lib\Qt6EntryPoint.prl \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\build_pass.prf \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\lib\Qt6Widgetsd.prl \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\lib\Qt6Guid.prl \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\lib\Qt6Cored.prl \
-		D:\code\IDE\Qt\6.6.0\msvc2019_64\lib\Qt6EntryPointd.prl
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\lib\Qt6Widgets.prl \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\lib\Qt6Gui.prl \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\lib\Qt6Core.prl \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\lib\Qt6EntryPoint.prl \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\build_pass.prf \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\lib\Qt6Widgetsd.prl \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\lib\Qt6Guid.prl \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\lib\Qt6Cored.prl \
+		..\..\..\IDE\Qt\6.6.0\msvc2019_64\lib\Qt6EntryPointd.prl
 	$(QMAKE) -o Makefile ..\pcie_memory_rw\pcie_memory_rw.pro -spec win32-msvc "CONFIG+=qtquickcompiler"
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\spec_pre.prf:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\common\windows-desktop.conf:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\win32\windows_vulkan_sdk.prf:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\common\windows-vulkan.conf:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\common\msvc-desktop.conf:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\qconfig.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_ext_freetype.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_ext_libjpeg.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_ext_libpng.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_3danimation.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_3danimation_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_3dcore.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_3dcore_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_3dextras.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_3dextras_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_3dinput.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_3dinput_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_3dlogic.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_3dlogic_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_3dquick.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_3dquick_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_3dquickanimation.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_3dquickanimation_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_3dquickextras.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_3dquickextras_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_3dquickinput.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_3dquickinput_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_3dquickrender.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_3dquickrender_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_3dquickscene2d.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_3dquickscene2d_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_3drender.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_3drender_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_activeqt.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_activeqt_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_axbase_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_axcontainer.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_axcontainer_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_axserver.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_axserver_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_bluetooth.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_bluetooth_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_bodymovin_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_charts.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_charts_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_chartsqml.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_chartsqml_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_concurrent.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_concurrent_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_core.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_core5compat.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_core5compat_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_core_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_datavisualization.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_datavisualization_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_datavisualizationqml.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_datavisualizationqml_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_dbus.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_dbus_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_designer.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_designer_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_designercomponents_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_devicediscovery_support_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_entrypoint_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_example_icons_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_fb_support_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_freetype_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_graphs.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_graphs_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_grpc.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_grpc_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_gui.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_gui_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_harfbuzz_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_help.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_help_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_httpserver.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_httpserver_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_jpeg_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_jsonrpc_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_labsanimation.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_labsanimation_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_labsfolderlistmodel.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_labsfolderlistmodel_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_labsqmlmodels.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_labsqmlmodels_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_labssettings.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_labssettings_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_labssharedimage.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_labssharedimage_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_labswavefrontmesh.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_labswavefrontmesh_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_languageserver_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_linguist.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_linguist_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_location.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_location_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_multimedia.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_multimedia_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_multimediaquick_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_multimediawidgets.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_multimediawidgets_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_network.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_network_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_networkauth.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_networkauth_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_nfc.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_nfc_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_opengl.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_opengl_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_openglwidgets.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_openglwidgets_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_packetprotocol_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_pdf.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_pdf_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_pdfquick.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_pdfquick_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_pdfwidgets.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_pdfwidgets_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_png_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_positioning.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_positioning_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_positioningquick.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_positioningquick_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_printsupport.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_printsupport_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_protobuf.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_protobuf_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_protobufqtcoretypes.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_protobufqtcoretypes_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_protobufqtguitypes.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_protobufqtguitypes_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_protobufwellknowntypes.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_protobufwellknowntypes_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_qdoccatch_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_qdoccatchconversionsprivate.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_qdoccatchconversionsprivate_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_qdoccatchgeneratorsprivate.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_qdoccatchgeneratorsprivate_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_qml.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_qml_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_qmlcompiler.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_qmlcompiler_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_qmlcore.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_qmlcore_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_qmldebug_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_qmldom_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_qmlintegration.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_qmlintegration_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_qmllocalstorage.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_qmllocalstorage_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_qmlls_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_qmlmodels.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_qmlmodels_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_qmltest.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_qmltest_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_qmltoolingsettings_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_qmltyperegistrar_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_qmlworkerscript.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_qmlworkerscript_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_qmlxmllistmodel.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_qmlxmllistmodel_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quick.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quick3d.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quick3d_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quick3dassetimport.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quick3dassetimport_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quick3dassetutils.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quick3dassetutils_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quick3deffects.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quick3deffects_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quick3dglslparser_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quick3dhelpers.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quick3dhelpers_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quick3dhelpersimpl.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quick3dhelpersimpl_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quick3diblbaker.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quick3diblbaker_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quick3dparticleeffects.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quick3dparticleeffects_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quick3dparticles.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quick3dparticles_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quick3dphysics.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quick3dphysics_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quick3dphysicshelpers.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quick3dphysicshelpers_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quick3druntimerender.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quick3druntimerender_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quick3dspatialaudio_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quick3dutils.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quick3dutils_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quick_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quickcontrols2.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quickcontrols2_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quickcontrols2impl.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quickcontrols2impl_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quickcontrolstestutilsprivate_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quickdialogs2.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quickdialogs2_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quickdialogs2quickimpl.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quickdialogs2quickimpl_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quickdialogs2utils.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quickdialogs2utils_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quickeffects_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quicklayouts.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quicklayouts_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quickparticles_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quickshapes_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quicktemplates2.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quicktemplates2_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quicktestutilsprivate_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quicktimeline.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quicktimeline_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quickwidgets.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quickwidgets_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_remoteobjects.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_remoteobjects_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_remoteobjectsqml.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_remoteobjectsqml_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_repparser.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_repparser_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_scxml.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_scxml_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_scxmlqml.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_scxmlqml_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_sensors.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_sensors_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_sensorsquick.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_sensorsquick_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_serialbus.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_serialbus_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_serialport.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_serialport_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_shadertools.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_shadertools_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_spatialaudio.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_spatialaudio_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_sql.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_sql_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_statemachine.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_statemachine_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_statemachineqml.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_statemachineqml_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_svg.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_svg_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_svgwidgets.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_svgwidgets_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_testlib.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_testlib_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_texttospeech.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_texttospeech_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_tools_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_uiplugin.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_uitools.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_uitools_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_virtualkeyboard.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_virtualkeyboard_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_webchannel.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_webchannel_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_webchannelquick.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_webchannelquick_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_webenginecore.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_webenginecore_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_webenginequick.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_webenginequick_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_webenginequickdelegatesqml.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_webenginequickdelegatesqml_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_webenginewidgets.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_webenginewidgets_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_websockets.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_websockets_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_webview.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_webview_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_webviewquick.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_webviewquick_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_widgets.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_widgets_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_xml.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_xml_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_zlib_private.pri:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\qt_functions.prf:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\qt_config.prf:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\win32-msvc\qmake.conf:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\spec_post.prf:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\spec_pre.prf:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\common\windows-desktop.conf:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\win32\windows_vulkan_sdk.prf:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\common\windows-vulkan.conf:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\common\msvc-desktop.conf:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\qconfig.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_ext_freetype.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_ext_libjpeg.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_ext_libpng.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_3danimation.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_3danimation_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_3dcore.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_3dcore_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_3dextras.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_3dextras_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_3dinput.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_3dinput_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_3dlogic.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_3dlogic_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_3dquick.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_3dquick_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_3dquickanimation.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_3dquickanimation_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_3dquickextras.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_3dquickextras_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_3dquickinput.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_3dquickinput_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_3dquickrender.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_3dquickrender_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_3dquickscene2d.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_3dquickscene2d_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_3drender.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_3drender_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_activeqt.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_activeqt_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_axbase_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_axcontainer.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_axcontainer_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_axserver.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_axserver_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_bluetooth.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_bluetooth_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_bodymovin_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_charts.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_charts_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_chartsqml.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_chartsqml_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_concurrent.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_concurrent_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_core.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_core5compat.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_core5compat_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_core_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_datavisualization.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_datavisualization_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_datavisualizationqml.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_datavisualizationqml_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_dbus.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_dbus_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_designer.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_designer_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_designercomponents_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_devicediscovery_support_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_entrypoint_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_example_icons_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_fb_support_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_freetype_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_graphs.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_graphs_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_grpc.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_grpc_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_gui.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_gui_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_harfbuzz_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_help.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_help_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_httpserver.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_httpserver_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_jpeg_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_jsonrpc_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_labsanimation.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_labsanimation_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_labsfolderlistmodel.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_labsfolderlistmodel_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_labsqmlmodels.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_labsqmlmodels_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_labssettings.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_labssettings_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_labssharedimage.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_labssharedimage_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_labswavefrontmesh.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_labswavefrontmesh_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_languageserver_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_linguist.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_linguist_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_location.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_location_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_multimedia.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_multimedia_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_multimediaquick_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_multimediawidgets.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_multimediawidgets_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_network.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_network_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_networkauth.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_networkauth_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_nfc.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_nfc_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_opengl.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_opengl_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_openglwidgets.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_openglwidgets_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_packetprotocol_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_pdf.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_pdf_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_pdfquick.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_pdfquick_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_pdfwidgets.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_pdfwidgets_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_png_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_positioning.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_positioning_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_positioningquick.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_positioningquick_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_printsupport.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_printsupport_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_protobuf.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_protobuf_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_protobufqtcoretypes.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_protobufqtcoretypes_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_protobufqtguitypes.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_protobufqtguitypes_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_protobufwellknowntypes.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_protobufwellknowntypes_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_qdoccatch_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_qdoccatchconversionsprivate.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_qdoccatchconversionsprivate_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_qdoccatchgeneratorsprivate.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_qdoccatchgeneratorsprivate_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_qml.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_qml_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_qmlcompiler.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_qmlcompiler_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_qmlcore.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_qmlcore_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_qmldebug_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_qmldom_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_qmlintegration.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_qmlintegration_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_qmllocalstorage.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_qmllocalstorage_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_qmlls_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_qmlmodels.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_qmlmodels_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_qmltest.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_qmltest_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_qmltoolingsettings_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_qmltyperegistrar_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_qmlworkerscript.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_qmlworkerscript_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_qmlxmllistmodel.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_qmlxmllistmodel_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quick.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quick3d.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quick3d_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quick3dassetimport.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quick3dassetimport_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quick3dassetutils.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quick3dassetutils_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quick3deffects.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quick3deffects_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quick3dglslparser_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quick3dhelpers.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quick3dhelpers_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quick3dhelpersimpl.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quick3dhelpersimpl_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quick3diblbaker.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quick3diblbaker_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quick3dparticleeffects.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quick3dparticleeffects_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quick3dparticles.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quick3dparticles_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quick3dphysics.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quick3dphysics_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quick3dphysicshelpers.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quick3dphysicshelpers_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quick3druntimerender.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quick3druntimerender_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quick3dspatialaudio_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quick3dutils.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quick3dutils_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quick_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quickcontrols2.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quickcontrols2_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quickcontrols2impl.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quickcontrols2impl_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quickcontrolstestutilsprivate_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quickdialogs2.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quickdialogs2_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quickdialogs2quickimpl.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quickdialogs2quickimpl_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quickdialogs2utils.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quickdialogs2utils_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quickeffects_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quicklayouts.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quicklayouts_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quickparticles_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quickshapes_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quicktemplates2.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quicktemplates2_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quicktestutilsprivate_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quicktimeline.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quicktimeline_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quickwidgets.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_quickwidgets_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_remoteobjects.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_remoteobjects_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_remoteobjectsqml.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_remoteobjectsqml_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_repparser.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_repparser_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_scxml.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_scxml_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_scxmlqml.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_scxmlqml_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_sensors.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_sensors_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_sensorsquick.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_sensorsquick_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_serialbus.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_serialbus_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_serialport.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_serialport_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_shadertools.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_shadertools_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_spatialaudio.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_spatialaudio_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_sql.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_sql_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_statemachine.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_statemachine_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_statemachineqml.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_statemachineqml_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_svg.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_svg_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_svgwidgets.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_svgwidgets_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_testlib.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_testlib_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_texttospeech.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_texttospeech_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_tools_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_uiplugin.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_uitools.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_uitools_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_virtualkeyboard.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_virtualkeyboard_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_webchannel.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_webchannel_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_webchannelquick.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_webchannelquick_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_webenginecore.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_webenginecore_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_webenginequick.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_webenginequick_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_webenginequickdelegatesqml.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_webenginequickdelegatesqml_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_webenginewidgets.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_webenginewidgets_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_websockets.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_websockets_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_webview.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_webview_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_webviewquick.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_webviewquick_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_widgets.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_widgets_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_xml.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_xml_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\modules\qt_lib_zlib_private.pri:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\qt_functions.prf:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\qt_config.prf:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\win32-msvc\qmake.conf:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\spec_post.prf:
 .qmake.stash:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\exclusive_builds.prf:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\common\msvc-version.conf:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\toolchain.prf:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\default_pre.prf:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\win32\default_pre.prf:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\resolve_config.prf:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\exclusive_builds_post.prf:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\default_post.prf:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\qtquickcompiler.prf:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\entrypoint.prf:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\precompile_header.prf:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\warn_on.prf:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\permissions.prf:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\qt.prf:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\resources_functions.prf:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\resources.prf:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\moc.prf:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\win32\opengl.prf:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\uic.prf:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\qmake_use.prf:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\file_copies.prf:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\win32\windows.prf:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\testcase_targets.prf:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\exceptions.prf:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\yacc.prf:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\lex.prf:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\exclusive_builds.prf:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\common\msvc-version.conf:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\toolchain.prf:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\default_pre.prf:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\win32\default_pre.prf:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\resolve_config.prf:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\exclusive_builds_post.prf:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\default_post.prf:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\qtquickcompiler.prf:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\entrypoint.prf:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\precompile_header.prf:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\warn_on.prf:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\permissions.prf:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\qt.prf:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\resources_functions.prf:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\resources.prf:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\moc.prf:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\win32\opengl.prf:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\uic.prf:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\qmake_use.prf:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\file_copies.prf:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\win32\windows.prf:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\testcase_targets.prf:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\exceptions.prf:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\yacc.prf:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\lex.prf:
 ..\pcie_memory_rw\pcie_memory_rw.pro:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\lib\Qt6Widgets.prl:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\lib\Qt6Gui.prl:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\lib\Qt6Core.prl:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\lib\Qt6EntryPoint.prl:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\build_pass.prf:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\lib\Qt6Widgetsd.prl:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\lib\Qt6Guid.prl:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\lib\Qt6Cored.prl:
-D:\code\IDE\Qt\6.6.0\msvc2019_64\lib\Qt6EntryPointd.prl:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\lib\Qt6Widgets.prl:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\lib\Qt6Gui.prl:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\lib\Qt6Core.prl:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\lib\Qt6EntryPoint.prl:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\mkspecs\features\build_pass.prf:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\lib\Qt6Widgetsd.prl:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\lib\Qt6Guid.prl:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\lib\Qt6Cored.prl:
+..\..\..\IDE\Qt\6.6.0\msvc2019_64\lib\Qt6EntryPointd.prl:
 qmake: FORCE
 	@$(QMAKE) -o Makefile ..\pcie_memory_rw\pcie_memory_rw.pro -spec win32-msvc "CONFIG+=qtquickcompiler"
 

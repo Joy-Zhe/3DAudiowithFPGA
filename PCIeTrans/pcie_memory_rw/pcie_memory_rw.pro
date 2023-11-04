@@ -22,7 +22,7 @@ HEADERS += \
 FORMS += \
     pcie_memory_rw.ui
 
-RC_ICONS =
+RC_ICONS = hi-res-icon-0.ico
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin

@@ -11,6 +11,7 @@
 
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
+#include <QtWidgets/QCheckBox>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QMainWindow>
 #include <QtWidgets/QMenuBar>
@@ -18,7 +19,6 @@
 #include <QtWidgets/QPushButton>
 #include <QtWidgets/QSlider>
 #include <QtWidgets/QStatusBar>
-#include <QtWidgets/QTextBrowser>
 #include <QtWidgets/QWidget>
 
 QT_BEGIN_NAMESPACE
@@ -27,19 +27,17 @@ class Ui_pcie_memory_rw
 {
 public:
     QWidget *centralwidget;
-    QLabel *label;
     QLabel *label_2;
-    QPushButton *btnClrRcv;
     QPushButton *btnSnd;
-    QTextBrowser *txtBro;
     QPlainTextEdit *txtEdit;
-    QPushButton *btnClrSnd;
     QSlider *xSlider;
     QSlider *ySlider;
     QSlider *zSlider;
     QLabel *label_3;
     QLabel *label_4;
     QLabel *label_5;
+    QPushButton *wavProcessButton;
+    QCheckBox *proBox;
     QMenuBar *menubar;
     QStatusBar *statusbar;
 
@@ -50,35 +48,19 @@ public:
         pcie_memory_rw->resize(804, 809);
         centralwidget = new QWidget(pcie_memory_rw);
         centralwidget->setObjectName("centralwidget");
-        label = new QLabel(centralwidget);
-        label->setObjectName("label");
-        label->setGeometry(QRect(410, 20, 61, 20));
         label_2 = new QLabel(centralwidget);
         label_2->setObjectName("label_2");
         label_2->setGeometry(QRect(20, 20, 61, 20));
-        btnClrRcv = new QPushButton(centralwidget);
-        btnClrRcv->setObjectName("btnClrRcv");
-        btnClrRcv->setGeometry(QRect(20, 710, 91, 31));
         btnSnd = new QPushButton(centralwidget);
         btnSnd->setObjectName("btnSnd");
         btnSnd->setGeometry(QRect(690, 710, 91, 31));
-        txtBro = new QTextBrowser(centralwidget);
-        txtBro->setObjectName("txtBro");
-        txtBro->setGeometry(QRect(410, 50, 371, 241));
-        QFont font;
-        font.setFamilies({QString::fromUtf8("\345\276\256\350\275\257\351\233\205\351\273\221")});
-        font.setPointSize(12);
-        txtBro->setFont(font);
         txtEdit = new QPlainTextEdit(centralwidget);
         txtEdit->setObjectName("txtEdit");
-        txtEdit->setGeometry(QRect(20, 50, 351, 241));
-        QFont font1;
-        font1.setFamilies({QString::fromUtf8("Microsoft YaHei")});
-        font1.setPointSize(12);
-        txtEdit->setFont(font1);
-        btnClrSnd = new QPushButton(centralwidget);
-        btnClrSnd->setObjectName("btnClrSnd");
-        btnClrSnd->setGeometry(QRect(120, 710, 91, 31));
+        txtEdit->setGeometry(QRect(20, 50, 761, 241));
+        QFont font;
+        font.setFamilies({QString::fromUtf8("Microsoft YaHei")});
+        font.setPointSize(12);
+        txtEdit->setFont(font);
         xSlider = new QSlider(centralwidget);
         xSlider->setObjectName("xSlider");
         xSlider->setGeometry(QRect(80, 350, 160, 16));
@@ -100,6 +82,13 @@ public:
         label_5 = new QLabel(centralwidget);
         label_5->setObjectName("label_5");
         label_5->setGeometry(QRect(20, 470, 21, 16));
+        wavProcessButton = new QPushButton(centralwidget);
+        wavProcessButton->setObjectName("wavProcessButton");
+        wavProcessButton->setGeometry(QRect(590, 710, 81, 31));
+        proBox = new QCheckBox(centralwidget);
+        proBox->setObjectName("proBox");
+        proBox->setEnabled(false);
+        proBox->setGeometry(QRect(540, 460, 81, 22));
         pcie_memory_rw->setCentralWidget(centralwidget);
         menubar = new QMenuBar(pcie_memory_rw);
         menubar->setObjectName("menubar");
@@ -110,8 +99,6 @@ public:
         pcie_memory_rw->setStatusBar(statusbar);
 
         retranslateUi(pcie_memory_rw);
-        QObject::connect(btnClrRcv, &QPushButton::clicked, txtBro, qOverload<>(&QTextBrowser::clear));
-        QObject::connect(btnClrSnd, &QPushButton::clicked, txtEdit, qOverload<>(&QPlainTextEdit::clear));
 
         QMetaObject::connectSlotsByName(pcie_memory_rw);
     } // setupUi
@@ -119,14 +106,13 @@ public:
     void retranslateUi(QMainWindow *pcie_memory_rw)
     {
         pcie_memory_rw->setWindowTitle(QCoreApplication::translate("pcie_memory_rw", "MainWindow", nullptr));
-        label->setText(QCoreApplication::translate("pcie_memory_rw", "\346\216\245\346\224\266\347\252\227\345\217\243", nullptr));
         label_2->setText(QCoreApplication::translate("pcie_memory_rw", "\345\217\221\351\200\201\347\252\227\345\217\243", nullptr));
-        btnClrRcv->setText(QCoreApplication::translate("pcie_memory_rw", "\346\270\205\347\251\272\346\216\245\346\224\266\342\206\221", nullptr));
         btnSnd->setText(QCoreApplication::translate("pcie_memory_rw", "\345\217\221\351\200\201\346\225\260\346\215\256", nullptr));
-        btnClrSnd->setText(QCoreApplication::translate("pcie_memory_rw", "\346\270\205\347\251\272\345\217\221\351\200\201\342\206\223", nullptr));
         label_3->setText(QCoreApplication::translate("pcie_memory_rw", "x", nullptr));
         label_4->setText(QCoreApplication::translate("pcie_memory_rw", "y", nullptr));
         label_5->setText(QCoreApplication::translate("pcie_memory_rw", "z", nullptr));
+        wavProcessButton->setText(QCoreApplication::translate("pcie_memory_rw", "\351\242\204\345\244\204\347\220\206", nullptr));
+        proBox->setText(QCoreApplication::translate("pcie_memory_rw", "\351\242\204\345\244\204\347\220\206", nullptr));
     } // retranslateUi
 
 };

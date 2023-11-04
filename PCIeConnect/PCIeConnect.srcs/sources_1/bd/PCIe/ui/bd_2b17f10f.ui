@@ -1,24 +1,35 @@
 {
    "ActiveEmotionalView":"Default View",
    "Default View_ScaleFactor":"1.25",
-   "Default View_TopLeft":"-202,-833",
+   "Default View_TopLeft":"-202,-834",
    "ExpandedHierarchyInLayout":"",
    "guistr":"# # String gsaved with Nlview 7.5.8 2022-09-21 7111 VDI=41 GEI=38 GUI=JA:10.0
 #  -string -flagsOSRD
-preplace port pcie_7x_mgt_rtl_0 -pg 1 -lvl 3 -x 400 -y -270 -defaultsOSRD
+preplace port pcie_7x_mgt_rtl_0 -pg 1 -lvl 3 -x 680 -y -270 -defaultsOSRD
 preplace port diff_clock_rtl_0 -pg 1 -lvl 0 -x 0 -y -440 -defaultsOSRD
 preplace port port-id_reset_rtl_0 -pg 1 -lvl 0 -x 0 -y -210 -defaultsOSRD
-preplace inst xdma_0 -pg 1 -lvl 1 -x 180 -y -230 -defaultsOSRD
-preplace inst util_ds_buf -pg 1 -lvl 1 -x 180 -y -440 -defaultsOSRD
+preplace inst xdma_0 -pg 1 -lvl 1 -x 200 -y -230 -defaultsOSRD
+preplace inst util_ds_buf -pg 1 -lvl 1 -x 200 -y -440 -defaultsOSRD
+preplace inst axi_bram_ctrl_0 -pg 1 -lvl 1 -x 200 -y -700 -defaultsOSRD
+preplace inst axi_bram_ctrl_0_bram -pg 1 -lvl 2 -x 520 -y -700 -defaultsOSRD
+preplace inst axi_smc -pg 1 -lvl 2 -x 520 -y -350 -defaultsOSRD
 preplace netloc reset_rtl_0_1 1 0 1 NJ -210
-preplace netloc util_ds_buf_IBUF_OUT 1 0 2 20 -510 340J
-preplace netloc xdma_0_pcie_mgt 1 1 2 NJ -270 N
+preplace netloc util_ds_buf_IBUF_OUT 1 0 2 40 -510 360J
+preplace netloc xdma_0_axi_aclk 1 0 2 30 -530 380
+preplace netloc xdma_0_axi_aresetn 1 0 2 20 -520 370
 preplace netloc diff_clock_rtl_0_1 1 0 1 NJ -440
-levelinfo -pg 1 0 180 360 400
-pagesize -pg 1 -db -bbox -sgen -150 -550 570 260
+preplace netloc xdma_0_pcie_mgt 1 1 2 NJ -270 N
+preplace netloc axi_bram_ctrl_0_BRAM_PORTA 1 1 1 N -710
+preplace netloc axi_bram_ctrl_0_BRAM_PORTB 1 1 1 N -690
+preplace netloc xdma_0_M_AXI_LITE 1 1 1 360 -370n
+preplace netloc axi_smc_M00_AXI 1 0 3 40 -540 NJ -540 660
+levelinfo -pg 1 0 200 520 680
+pagesize -pg 1 -db -bbox -sgen -170 -870 850 260
 "
 }
 {
+   "da_axi4_cnt":"1",
    "da_board_cnt":"3",
+   "da_bram_cntlr_cnt":"2",
    "da_xdma_cnt":"1"
 }
